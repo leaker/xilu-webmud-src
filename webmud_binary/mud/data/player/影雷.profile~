@@ -1,0 +1,48 @@
+#class=YPlayer
+begin of YPropertyGroup
+string values:
+#class=YPlayer
+room_name=room\长安\西大街2
+对手=
+跟随=
+跟随的人=
+名字=影雷
+前进方向=南
+杀死=
+性别=
+衣服=
+状态=
+long values:
+对杀=0
+繁忙=0
+附加防御力=0
+固定防御力=0
+固定攻击力=0
+后天臂力=0
+后天根骨=0
+后天身法=0
+后天悟性=0
+精力=100
+空闲时间=0
+内力=0
+年龄=7
+气血=1
+身体恢复速度=4000
+食品消耗=0
+食物=150
+先天臂力=25
+先天根骨=25
+先天身法=25
+先天悟性=25
+新人登录步骤=2
+饮水=150
+晕倒时间=0
+在线时间=0
+战斗=0
+最大负重=0
+最大精力=225
+最大气血=350
+float values:
+end of YPropertyGroup
+begin of YObjectGroup
+end of YObjectGroup

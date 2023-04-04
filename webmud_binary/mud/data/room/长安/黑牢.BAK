@@ -1,0 +1,23 @@
+#class=YMarryRoom
+begin of YPropertyGroup
+string values:
+名字=姻缘阁
+需要NPC名称=红娘
+需要条件=结婚步骤
+酒宴房间=喜厅
+婚礼结束后描述=只听见有人敲锣打鼓的把新人送到了太白楼
+没有NPC的情况=一个细小的声音响起：“证婚人不在，看来还是等等吧，你们等了这么长时间才能走到一起，想来也不在意这一点时间吧，等待也是一种甜蜜不是，虽没有父母之命，但媒妁之言还是要有的吗，千万不要私奔啊！喔~~~~~~~~~~~~hoho~~~~~~~~~~~~”（我不是罗嗦唐僧！ye！）
+
+描述=@LONG
+    进的屋来，正厅的中堂挂着一个大大的喜字，下面是一个八仙喜桌，桌子上一对出自京城名匠之手的龙凤烛燃的格外明亮。地上是来自西域波斯的大红地毯，烘托出一片的喜庆之色。<br>
+    这里明显的出口是<a href=out onClick='return sendmsg("out");' target=result>外面</a><br>。
+LONG
+外面=红娘庄
+NPC列表=红娘
+long values:
+禁止战斗=1
+float values:
+end of YPropertyGroup
+begin of YObjectGroup
+object=npc/红娘
+end of YObjectGroup

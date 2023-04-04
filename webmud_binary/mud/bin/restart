@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd /home/mud/bin
+killall webmud
+rm -f /home/mud/data/fifo/*
+rm -f /home/mud/data/system.sem
+nohup ./webmud&
+

@@ -1,0 +1,15 @@
+#class=YRoom
+begin of YPropertyGroup
+string values:
+名字=山洞
+描述=@LONG
+    山洞内有块光溜溜的大石，不知道曾有多少华山派的前辈在此思过面
+壁(mianbi)，以致这块大石竟被坐得滑溜。石壁左侧刻着「风清扬」三个大
+字，是以利器所刻，笔划苍劲，深有半寸。这三字刻得劲力非凡，想必其
+人武功一定十分了得。<br>
+    这里唯一的出口是 <a href=外面 onClick='return sendmsg("外面");' target=result>外面</a> 。
+LONG
+外面=思过崖
+long values:
+float values:
+end of YPropertyGroup
